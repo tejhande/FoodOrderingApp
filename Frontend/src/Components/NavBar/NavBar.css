@@ -59,3 +59,57 @@
     top: -8px;
     right: -8px;
 }
+
+@media (max-width: 1050px) {
+    .NavBar .logo {
+        width: 140px;
+    }
+
+    .NavBar-Menu {
+        gap: 20px;
+        font-size: 17px;
+    }
+
+    .NavBar-Right {
+        gap: 30px;
+    }
+
+    .NavBar-Right img {
+        width: 22px;
+    }
+
+    .NavBar-Right button {
+        padding: 8px 25px;
+    }
+}
+
+@media (max-width: 900px) {
+    .NavBar .logo {
+        width: 120px;
+    }
+
+    .NavBar-Menu {
+        gap: 15px;
+        font-size: 16px;
+    }
+
+    .NavBar-Right {
+        gap: 20px;
+    }
+
+    .NavBar-Right img {
+        width: 20px;
+    }
+
+    .NavBar-Right button {
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 750px) {
+    .NavBar-Menu {
+     display: none;
+    }
+}
+
