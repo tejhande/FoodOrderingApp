@@ -7,6 +7,11 @@
     animation: fadeIn 1s;
 }
 
+.FoodItem:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
 .FoodItemImage{
     width: 100%;
     border-radius: 15px 15px 0px 0px;
