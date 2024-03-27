@@ -1,10 +1,11 @@
 import React, { createContext, useState } from "react";
 import { food_list } from "../assets/assets";
+import { useEffect } from "react";
 
 export const StoreContext = createContext(null)
 
 const StoreContextProvider = (props) => {
-    const [cartItems, setCartItems] = useState({});
+    const [cartItems,setCartItems] = useState({});
 
     const addToCart = (itemId) => {
         if (!cartItems[itemId]) {
@@ -15,7 +16,7 @@ const StoreContextProvider = (props) => {
     };
 
     const removeFromCart = (itemId) => {
-        setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
+        setCartItems((prev) => ({ ...prev,[itemId]:prev[itemId]-1}));
     };
 
     useEffect(() => {

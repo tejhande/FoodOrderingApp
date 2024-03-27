@@ -8,7 +8,7 @@
 }
 
 .FoodItemImage{
-    width: 100px;
+    width: 100%;
     border-radius: 15px 15px 0px 0px;
 }
 
@@ -40,8 +40,8 @@
 .FoodItemPrice {
     color: tomato;
     font-weight: 500;
-    font-size: 22px;
     margin: 10px 0px;
+    font-size: 22px;
 }
 
 .FoodItemImageContainer{

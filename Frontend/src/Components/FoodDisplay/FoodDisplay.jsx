@@ -12,7 +12,7 @@ const FoodDisplay = ({category}) => {
             <h2>Top Dishes Near You</h2>
             <div className="FoodDisplayList">
                 {food_list.map((item, index) => {
-                    if (category === "ALL" || category === item.category) {
+                    if (category==="All" || category === item.category) {
                         return <FoodItem key={index} id={item._id} name={item.name} description={item.description} price={item.price} image={item.image} />
                     }
                     // return null; // Add this line to handle the case where the condition is not met
