@@ -57,5 +57,8 @@
     .FooterCopyright{
         text-align: center;
     }
-    
+        .FooterContentLeft img{
+        max-width: 90vw;
+        margin-left: -12px;
+    }
 }
