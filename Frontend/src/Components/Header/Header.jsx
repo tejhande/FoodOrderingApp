@@ -5,8 +5,8 @@ function Header() {
   return (
     <div className="header">
       <div className="HeaderContents">
-        <h2>Order Your Favorite Food Here</h2>
-        <p>Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingr and culinury expertise. Our Misson Is to satisfy your cravings and elavate your dining experinece, one delicious meal at a time </p>
+        <h2>Order your preferred food here.</h2>
+        <p>Select from a varied menu offering exquisite dishes crafted with premium ingredients and culinary mastery. Our mission is to fulfill your cravings and enhance your dining experience, one delightful meal at a time.</p>
         <button>View Menu</button>
       </div>
 
