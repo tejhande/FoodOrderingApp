@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="FooterContent">
             <div className="FooterContentLeft">
                 <img src={assets.logo} alt="" />
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia perferendis suscipit, a optio ipsa nulla odit ex laudantium amet eum!</p>
+                <p>WindSpeed Food Delivery App revolutionizes food delivery with lightning-fast service and a user-friendly interface. Enjoy swift delivery of your favorite cuisines, powered by cutting-edge technology.</p>
                 <div className="FooterSocialIcons">
                     <img src={assets.facebook_icon} alt="" />
                     <img src={assets.twitter_icon} alt="" />
