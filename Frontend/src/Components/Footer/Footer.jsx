@@ -10,9 +10,10 @@ const Footer = () => {
                 <img src={assets.logo} alt="" />
                 <p>WindSpeed Food Delivery App revolutionizes food delivery with lightning-fast service and a user-friendly interface. Enjoy swift delivery of your favorite cuisines, powered by cutting-edge technology.</p>
                 <div className="FooterSocialIcons">
-                    <img src={assets.facebook_icon} alt="" />
-                    <img src={assets.twitter_icon} alt="" />
-                    <img src={assets.linkedin_icon} alt="" />
+                <a href="https://github.com/tejhande" target='_blank'><img src={assets.git_icon} alt="GitHub" /></a>
+                <a href="https://twitter.com/tejashande25" target='_blank'><img src={assets.twitter_icon} alt="Twitter" /></a>
+                <a href="https://www.linkedin.com/in/tejashande/" target='_blank'><img src={assets.linkedin_icon} alt="LinkedIn" /></a>
+
                 </div>
             </div>
 

@@ -58,6 +58,7 @@
     background-color: tomato;
     top: -8px;
     right: -8px;
+    border-radius: 50%;
 }
 
 @media (max-width: 1050px) {

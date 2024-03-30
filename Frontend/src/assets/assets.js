@@ -59,6 +59,7 @@ import profile_icon from './profile_icon.png'
 import bag_icon from './bag_icon.png'
 import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
+import git_icon from './git_icon.png'
 
 export const assets = {
     logo,
@@ -79,7 +80,8 @@ export const assets = {
     profile_icon,
     logout_icon,
     bag_icon,
-    parcel_icon
+    parcel_icon,
+    git_icon
 }
 
 export const menu_list = [
@@ -122,7 +124,7 @@ export const food_list = [
         name: "Greek salad",
         image: food_1,
         price: 12,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Refreshing mix of crisp lettuce, tomatoes, cucumbers, olives, and feta.",
         category: "Salad"
     },
     {
@@ -130,77 +132,77 @@ export const food_list = [
         name: "Veg salad",
         image: food_2,
         price: 18,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Fresh medley of garden vegetables with zesty vinaigrette dressing.",
         category: "Salad"
     }, {
         _id: "3",
         name: "Clover Salad",
         image: food_3,
         price: 16,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Nutrient-rich blend of clover sprouts, mixed greens, and tangy dressing.",
         category: "Salad"
     }, {
         _id: "4",
         name: "Chicken Salad",
         image: food_4,
         price: 24,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Succulent grilled chicken strips atop crisp garden greens and vegetables.",
         category: "Salad"
     }, {
         _id: "5",
         name: "Lasagna Rolls",
         image: food_5,
         price: 14,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Rolled lasagna noodles filled with savory ricotta and marinara sauce.",
         category: "Rolls"
     }, {
         _id: "6",
         name: "Peri Peri Rolls",
         image: food_6,
         price: 12,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Spicy peri peri chicken wrapped in crispy golden rolls.",
         category: "Rolls"
     }, {
         _id: "7",
         name: "Chicken Rolls",
         image: food_7,
         price: 20,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Delicious chicken filling wrapped in crispy golden pastry.",
         category: "Rolls"
     }, {
         _id: "8",
         name: "Veg Rolls",
         image: food_8,
         price: 15,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Assorted vegetables enveloped in crispy, golden-brown pastry rolls.",
         category: "Rolls"
     }, {
         _id: "9",
         name: "Ripple Ice Cream",
         image: food_9,
         price: 14,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Velvety waves of creamy indulgence in every scoop of ripple ice cream.",
         category: "Deserts"
     }, {
         _id: "10",
         name: "Fruit Ice Cream",
         image: food_10,
         price: 22,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Luscious blend of ripe fruits swirled into creamy ice cream.",
         category: "Deserts"
     }, {
         _id: "11",
         name: "Jar Ice Cream",
         image: food_11,
         price: 10,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Creamy delight served in a jar, ready to scoop and enjoy.",
         category: "Deserts"
     }, {
         _id: "12",
         name: "Vanilla Ice Cream",
         image: food_12,
         price: 12,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Classic creamy vanilla indulgence, perfect on any occasion.",
         category: "Deserts"
     },
     {
@@ -208,7 +210,7 @@ export const food_list = [
         name: "Chicken Sandwich",
         image: food_13,
         price: 12,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Juicy grilled chicken nestled between soft, toasted bread slices.",
         category: "Sandwich"
     },
     {
@@ -216,77 +218,77 @@ export const food_list = [
         name: "Vegan Sandwich",
         image: food_14,
         price: 18,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Wholesome plant-based ingredients nestled between toasted bread slices.",
         category: "Sandwich"
     }, {
         _id: "15",
         name: "Grilled Sandwich",
         image: food_15,
         price: 16,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Warm and crispy grilled bread encasing savory fillings of choice.",
         category: "Sandwich"
     }, {
         _id: "16",
         name: "Bread Sandwich",
         image: food_16,
         price: 24,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Simple yet satisfying combination of fillings nestled between slices of bread.",
         category: "Sandwich"
     }, {
         _id: "17",
         name: "Cup Cake",
         image: food_17,
         price: 14,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Delightful miniature cake, perfect for a sweet indulgence.",
         category: "Cake"
     }, {
         _id: "18",
         name: "Vegan Cake",
         image: food_18,
         price: 12,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Decadent cake made without any animal products, a guilt-free treat.",
         category: "Cake"
     }, {
         _id: "19",
         name: "Butterscotch Cake",
         image: food_19,
         price: 20,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Rich, moist cake infused with luscious butterscotch flavor, a decadent delight.",
         category: "Cake"
     }, {
         _id: "20",
         name: "Sliced Cake",
         image: food_20,
         price: 15,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Indulgent cake, sliced and ready to savor each delightful bite.",
         category: "Cake"
     }, {
         _id: "21",
         name: "Garlic Mushroom ",
         image: food_21,
         price: 14,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Savory mushrooms sautéed with garlic for a flavorful, aromatic dish.",
         category: "Pure Veg"
     }, {
         _id: "22",
         name: "Fried Cauliflower",
         image: food_22,
         price: 22,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Crispy fried cauliflower florets, a delectable vegetarian appetizer or side dish.",
         category: "Pure Veg"
     }, {
         _id: "23",
         name: "Mix Veg Pulao",
         image: food_23,
         price: 10,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Fragrant rice cooked with assorted vegetables, a flavorful one-pot meal.",
         category: "Pure Veg"
     }, {
         _id: "24",
         name: "Rice Zucchini",
         image: food_24,
         price: 12,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Zesty zucchini stir-fried with seasoned rice, a delightful fusion dish.",
         category: "Pure Veg"
     },
     {
@@ -294,7 +296,7 @@ export const food_list = [
         name: "Cheese Pasta",
         image: food_25,
         price: 12,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Creamy pasta tossed in rich cheese sauce, a comforting classic.",
         category: "Pasta"
     },
     {
@@ -302,49 +304,49 @@ export const food_list = [
         name: "Tomato Pasta",
         image: food_26,
         price: 18,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Al dente pasta coated in tangy tomato sauce, a classic Italian dish.",
         category: "Pasta"
     }, {
         _id: "27",
         name: "Creamy Pasta",
         image: food_27,
         price: 16,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Indulgent pasta enveloped in a velvety, creamy sauce for a comforting meal.",
         category: "Pasta"
     }, {
         _id: "28",
         name: "Chicken Pasta",
         image: food_28,
         price: 24,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Tender chicken pieces tossed with al dente pasta in a savory sauce.",
         category: "Pasta"
     }, {
         _id: "29",
         name: "Buttter Noodles",
         image: food_29,
         price: 14,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Tender noodles coated in rich, buttery goodness for a comforting dish.",
         category: "Noodles"
     }, {
         _id: "30",
         name: "Veg Noodles",
         image: food_30,
         price: 12,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Stir-fried noodles with assorted vegetables, a flavorful vegetarian delight.",
         category: "Noodles"
     }, {
         _id: "31",
         name: "Somen Noodles",
         image: food_31,
         price: 20,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Thin Japanese wheat noodles served cold, perfect for refreshing summer meals.",
         category: "Noodles"
     }, {
         _id: "32",
         name: "Cooked Noodles",
         image: food_32,
         price: 15,
-        description: "Nutritious food is essential for promoting overall health and well-being.",
+        description: "Soft and tender noodles ready to be tossed in your favorite sauce.",
         category: "Noodles"
     }
 ]
