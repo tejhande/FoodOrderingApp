@@ -7,7 +7,7 @@ function Header() {
       <div className="HeaderContents">
         <h2>Order your preferred food here.</h2>
         <p>Select from a varied menu offering exquisite dishes crafted with premium ingredients and culinary mastery. Our mission is to fulfill your cravings and enhance your dining experience, one delightful meal at a time.</p>
-        <button>View Menu</button>
+        <a href="#ExploreMenu"><button>View Menu</button> </a>
       </div>
 
     </div>
