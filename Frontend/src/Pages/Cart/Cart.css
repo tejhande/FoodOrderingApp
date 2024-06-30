@@ -106,3 +106,117 @@
         justify-content: start;
     }
 }
+
+.delete-button {
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: #e62222;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    transition: 200ms;
+  }
+  
+  .delete-button span {
+    transition: 200ms;
+  }
+  
+  .delete-button .text {
+    transform: translateX(25px);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .delete-button .icon {
+    position: absolute;
+    border-left: 1px solid #c41b1b;
+    transform: translateX(85px);
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .delete-button svg {
+    width: 12px;
+    fill: #eee;
+  }
+  
+  .delete-button:hover {
+    background: #ff3636;
+  }
+  
+  .delete-button:hover .text {
+    color: transparent;
+  }
+  
+  .delete-button:hover .icon {
+    width: 120px;
+    border-left: none;
+    transform: translateX(0);
+  }
+  
+  .delete-button:focus {
+    outline: none;
+  }
+  
+  .delete-button:active .icon svg {
+    transform: scale(0.8);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .delete-button {
+      width: 100px;
+      height: 36px;
+    }
+  
+    .delete-button .text {
+      transform: translateX(20px);
+      font-size: 12px;
+    }
+  
+    .delete-button .icon {
+      transform: translateX(70px);
+      height: 28px;
+      width: 28px;
+    }
+  
+    .delete-button:hover .icon {
+      width: 100px;
+    }
+  
+    .delete-button svg {
+      width: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .delete-button {
+      width: 80px;
+      height: 32px;
+    }
+  
+    .delete-button .text {
+      transform: translateX(15px);
+      font-size: 11px;
+    }
+  
+    .delete-button .icon {
+      transform: translateX(55px);
+      height: 24px;
+      width: 24px;
+    }
+  
+    .delete-button:hover .icon {
+      width: 80px;
+    }
+  
+    .delete-button svg {
+      width: 9px;
+    }
+  }
