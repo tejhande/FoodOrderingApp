@@ -91,17 +91,17 @@ const Footer = () => {
             </li>
             <li>
               <a href="https://tejashande.vercel.app" target="_blank">
-                Tejas Hande
+                ABC XYZ
               </a>
             </li>
             <li>
               <a href="https://tejashande.vercel.app" target="_blank">
-                +91 8600828734
+                +91 9876543210
               </a>
             </li>
             <li>
               <a href="https://tejashande.vercel.app" target="_blank">
-                tejasamolhande@gmail.com
+                example@example.com
               </a>
             </li>
             <li>
@@ -114,7 +114,7 @@ const Footer = () => {
       </div>
       <hr />
       <p className="FooterCopyright">
-        Copyright 2024 © Tejas - All rights reserved.
+        Copyright 2024 © Windspeed - All rights reserved.
       </p>
     </div>
   );
